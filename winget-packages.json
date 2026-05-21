@@ -1,0 +1,164 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2026-05-21T12:17:27.051-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "Parsec.ParsecVDD"
+				},
+				{
+					"PackageIdentifier" : "Cockos.REAPER"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "RARLab.WinRAR"
+				},
+				{
+					"PackageIdentifier" : "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier" : "AmarBego.Rscoop"
+				},
+				{
+					"PackageIdentifier" : "WireGuard.WireGuard"
+				},
+				{
+					"PackageIdentifier" : "OpenVPNTechnologies.OpenVPNConnect"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
+				},
+				{
+					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.msodbcsql.18"
+				},
+				{
+					"PackageIdentifier" : "Anysphere.Cursor"
+				},
+				{
+					"PackageIdentifier" : "MichaelTippach.ASIO4ALL"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome.EXE"
+				},
+				{
+					"PackageIdentifier" : "Parsec.Parsec"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "EmoteInteractive.RemoteMouse"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
+				},
+				{
+					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
+				},
+				{
+					"PackageIdentifier" : "DBeaver.DBeaver.Community"
+				},
+				{
+					"PackageIdentifier" : "Rustlang.Rustup"
+				},
+				{
+					"PackageIdentifier" : "Zoom.Zoom.EXE"
+				},
+				{
+					"PackageIdentifier" : "ajeetdsouza.zoxide"
+				},
+				{
+					"PackageIdentifier" : "eza-community.eza"
+				},
+				{
+					"PackageIdentifier" : "junegunn.fzf"
+				},
+				{
+					"PackageIdentifier" : "sharkdp.bat"
+				},
+				{
+					"PackageIdentifier" : "sharkdp.fd"
+				},
+				{
+					"PackageIdentifier" : "sxyazi.yazi"
+				},
+				{
+					"PackageIdentifier" : "Telegram.TelegramDesktop"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3.12"
+				},
+				{
+					"PackageIdentifier" : "Anthropic.Claude"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Native.Runtime"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.6"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsAppRuntime.1.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WSL"
+				},
+				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.28.240"
+}

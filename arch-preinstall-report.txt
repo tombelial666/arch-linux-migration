@@ -1,0 +1,354 @@
+﻿=== 05/21/2026 12:14:56 ===
+Machine: DESKTOP-U5I1UMS
+--- SYSTEM ---
+
+Имя узла:                                DESKTOP-U5I1UMS
+Имя ОС:                                  Майкрософт Windows 11 Pro
+Версия ОС:                               10.0.26200 Н/Д построение 26200
+Изготовитель ОС:                         Microsoft Corporation
+Конфигурация ОС:                         Изолированная рабочая станция
+Тип сборки ОС:                           Multiprocessor Free
+Зарегистрированный владелец:             Н/Д
+Зарегистрированная организация:          Н/Д
+Код продукта:                            00330-80000-00000-AA547
+Дата исходной установки:                 06.01.2026, 04:03:47
+Время загрузки системы:                  20.05.2026, 11:16:39
+Изготовитель системы:                    HP
+Модель системы:                          HP Laptop 15s-fq2xxx
+Тип системы:                             x64-based PC
+Процессоры:                              Число процессоров - 1.
+                                         [01]: Intel64 Family 6 Model 140 Stepping 1 GenuineIntel ~2901 МГц
+Версия BIOS:                             AMI F.33, 04.10.2023
+Каталог Windows:                         C:\WINDOWS
+Системный каталог:                       C:\WINDOWS\system32
+Устройство загрузки:                     \Device\HarddiskVolume1
+Язык системы:                            ru;Русский
+Язык ввода:                              en-us;Английский (США)
+Часовой пояс:                            (UTC+07:00) Бангкок, Джакарта, Ханой
+Полный объем физической памяти:          7 835 МБ
+Доступная физическая память:             401 МБ
+Виртуальная память: максимальный размер: 25 243 МБ
+Виртуальная память: доступна:            1 608 МБ
+Виртуальная память: используется:        23 635 МБ
+Расположение файла подкачки:             C:\pagefile.sys
+Домен:                                   WORKGROUP
+Сервер для входа:                        \\DESKTOP-U5I1UMS
+Исправления:                             Число установленных исправлений - 5.
+                                         [01]: KB5066128
+                                         [02]: KB5054156
+                                         [03]: KB5071430
+                                         [04]: KB5072033
+                                         [05]: KB5071142
+Сетевые адаптеры:                        Число сетевых адаптеров - 4.
+                                         [01]: Realtek RTL8821CE 802.11ac PCIe Adapter
+                                               Имя подключения: Беспроводная сеть
+                                               DHCP включен:    Да
+                                               DHCP-сервер:     192.168.1.1
+                                               IP-адрес
+                                               [01]: 192.168.1.11
+                                               [02]: fe80::32cd:e376:d5f5:c73a
+                                         [02]: Bluetooth Device (Personal Area Network)
+                                               Имя подключения: Сетевое подключение Bluetooth
+                                               Состояние:       Носитель отключен
+                                         [03]: TAP-Windows Adapter V9 for OpenVPN Connect
+                                               Имя подключения: Подключение по локальной сети
+                                               Состояние:       Носитель отключен
+                                         [04]: OpenVPN Data Channel Offload
+                                               Имя подключения: OpenVPN Connect DCO Adapter
+                                               Состояние:       Носитель отключен
+Безопасность на основе виртуализации:    Состояние: Выполняется
+                                         Обязательные свойства безопасности:
+                                               Базовая поддержка виртуализации
+                                         Доступные свойства безопасности:
+                                               Базовая поддержка виртуализации
+                                               Защита DMA
+                                               Код UEFI только для чтения
+                                               Снижение рисков безопасности SMM 1.0
+                                               Управление выполнением на основе режимов
+                                               Виртуализация APIC
+                                         Services Configured:
+                                               Условие обязательной целостности кода низкоуровневой оболочки
+                                         Services Running:
+                                               Условие обязательной целостности кода низкоуровневой оболочки
+                                         App Control for Business policy: Применено
+                                         App Control for Business user mode policy: Выкл.
+                                         Функции безопасности включены:
+Требования Hyper-V:                      Обнаружена низкоуровневая оболочка. Функции, необходимые для Hyper-V, отображены не будут.
+
+
+CsName                     : DESKTOP-U5I1UMS
+WindowsVersion             : 2009
+OsHardwareAbstractionLayer : 10.0.26100.1
+CsManufacturer             : HP
+CsModel                    : HP Laptop 15s-fq2xxx
+BiosManufacturer           : AMI
+BiosVersion                : HPQOEM - 1072009
+BiosReleaseDate            : 04.10.2023 07:00:00
+CsProcessors               : {11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz}
+OsTotalVisibleMemorySize   : 8022668
+
+
+
+--- DISKS ---
+
+Number Friendly Name            Serial Number                            HealthStatus OperationalStatus Total Size Part
+                                                                                                                   itio
+                                                                                                                   n St
+                                                                                                                   yle 
+------ -------------            -------------                            ------------ ----------------- ---------- ----
+0      NVMe KBG40ZNV256G KIOXIA 0100_0000_0000_0000_8CE3_8E04_0331_456A. Healthy      Online             238.47 GB GPT 
+1      Leef iBridge 3           17010000000123B                          Healthy      Online              29.51 GB GPT 
+
+
+
+
+   DiskPath: \\?\scsi#disk&ven_nvme&prod_kbg40znv256g_kio#4&4e4e240&0&020000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+
+PartitionNumber DriveLetter Offset            Size Type    
+--------------- ----------- ------            ---- ----    
+1                           1048576         200 MB System  
+2                           210763776        16 MB Reserved
+3               C           227540992    237.52 GB Basic   
+4                           255262195712    760 MB Recovery
+
+
+   DiskPath: \\?\usbstor#disk&ven_leef&prod_ibridge_3&rev_#17010000000123b&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+
+PartitionNumber DriveLetter Offset      Size Type 
+--------------- ----------- ------      ---- ---- 
+1               D           1048576 29.51 GB Basic
+
+
+
+DriveLetter FriendlyName          FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------          -------------- --------- ------------ ----------------- -------------      ----
+C           Windows 11 Pro 64-Bit NTFS           Fixed     Healthy      OK                     97.15 GB 237.52 GB
+                                  NTFS           Fixed     Healthy      OK                    114.75 MB    760 MB
+D                                 NTFS           Removable Healthy      OK                     29.44 GB  29.51 GB
+
+
+--- BITLOCKER ---
+--- FIRMWARE ---
+SecureBoot check: Не удалось задать подходящие привилегии. В доступе отказано.
+--- GPU / NET / AUDIO (PnP) ---
+
+Status Class                 FriendlyName                                                             InstanceId       
+------ -----                 ------------                                                             ----------       
+OK     Display               Parsec Virtual Display Adapter                                           ROOT\DISPLAY\0000
+OK     Bluetooth             Универсальный профиль доступа                                            BTHLEDEVICE\{0...
+OK     Bluetooth             Служба сведений об устройствах                                           BTHLEDEVICE\{0...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Bluetooth             Служба сведений об устройствах                                           BTHLEDEVICE\{0...
+OK     Bluetooth             Служба сведений об устройствах                                           BTHLEDEVICE\{0...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Bluetooth             Транспорт AVRCP UGREEN LightBuds                                         BTHENUM\{00001...
+OK     Net                   WAN Miniport (PPPOE)                                                     SWD\MSRRAS\MS_...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     AudioProcessingObject Voice Clarity                                                            SWD\DRIVERENUM...
+OK     Bluetooth             Универсальный профиль доступа                                            BTHLEDEVICE\{0...
+OK     Bluetooth             Универсальный профиль атрибутов                                          BTHLEDEVICE\{0...
+OK     Net                   Hyper-V Virtual Switch Extension Adapter                                 ROOT\VMS_VSMP\...
+OK     Net                   TAP-Windows Adapter V9 for OpenVPN Connect                               ROOT\NET\0000    
+OK     Net                   OpenVPN Data Channel Offload                                             ROOT\NET\0001    
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Net                   WAN Miniport (PPTP)                                                      SWD\MSRRAS\MS_...
+OK     Bluetooth             Транспорт AVRCP UGREEN LightBuds                                         BTHENUM\{00001...
+OK     Bluetooth             Универсальный профиль доступа                                            BTHLEDEVICE\{0...
+OK     Focusrite Audio       Focusrite USB Audio Root                                                 ROOT\FOCUSRITE...
+OK     Bluetooth             Универсальный профиль атрибутов                                          BTHLEDEVICE\{0...
+OK     Bluetooth             Транспорт AVRCP JBL Charge 4                                             BTHENUM\{00001...
+OK     Bluetooth             Универсальный профиль доступа                                            BTHLEDEVICE\{0...
+OK     Net                   WAN Miniport (IKEv2)                                                     SWD\MSRRAS\MS_...
+OK     Bluetooth             Перечислитель Bluetooth LE (Майкрософт)                                  BTH\MS_BTHLE\6...
+OK     Bluetooth             Универсальный профиль доступа                                            BTHLEDEVICE\{0...
+OK     Bluetooth             UGREEN BLE Mouse                                                         BTHLE\DEV_E9AB...
+OK     Net                   Microsoft Kernel Debug Network Adapter                                   ROOT\KDNIC\0000  
+OK     Bluetooth             UGREEN BLE Mouse                                                         BTHLE\DEV_E9AB...
+OK     Display               Intel(R) UHD Graphics                                                    PCI\VEN_8086&D...
+OK     Camera                HP TrueVision HD Camera                                                  USB\VID_30C9&P...
+OK     Bluetooth             Универсальный профиль атрибутов                                          BTHLEDEVICE\{0...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Bluetooth             Realtek Bluetooth 4.2 Adapter                                            USB\VID_0BDA&P...
+OK     Bluetooth             Универсальный профиль атрибутов                                          BTHLEDEVICE\{0...
+OK     Net                   WAN Miniport (Network Monitor)                                           SWD\MSRRAS\MS_...
+OK     Net                   WAN Miniport (IP)                                                        SWD\MSRRAS\MS_...
+OK     Bluetooth             UGREEN LightBuds                                                         BTHENUM\DEV_24...
+OK     Bluetooth             Универсальный профиль атрибутов                                          BTHLEDEVICE\{0...
+OK     Bluetooth             UGREEN KB 5.0                                                            BTHLE\DEV_F1BE...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{6...
+OK     Bluetooth             JBL Charge 4                                                             BTHENUM\DEV_98...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Net                   WAN Miniport (SSTP)                                                      SWD\MSRRAS\MS_...
+OK     Net                   Realtek RTL8821CE 802.11ac PCIe Adapter                                  PCI\VEN_10EC&D...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Bluetooth             Microsoft Bluetooth Enumerator                                           BTH\MS_BTHBRB\...
+OK     AudioEndpoint         Speaker (Realtek(R) Audio)                                               SWD\MMDEVAPI\{...
+OK     Bluetooth             UGREEN BLE Mouse                                                         BTHLE\DEV_E9AB...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{6...
+OK     Bluetooth             Bluetooth Device (RFCOMM Protocol TDI)                                   BTH\MS_RFCOMM\...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Net                   Bluetooth Device (Personal Area Network)                                 BTH\MS_BTHPAN\...
+OK     Focusrite Audio       Focusrite Thunderbolt Audio Root                                         ROOT\FOCUSRITE...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{6...
+OK     Bluetooth             Служба сведений об устройствах                                           BTHLEDEVICE\{0...
+OK     Net                   Microsoft Wi-Fi Direct Virtual Adapter                                   {5D624F94-8850...
+OK     Net                   Microsoft Wi-Fi Direct Virtual Adapter #2                                {5D624F94-8850...
+OK     Bluetooth             Транспорт AVRCP JBL Charge 4                                             BTHENUM\{00001...
+OK     AudioEndpoint         Набор микрофонов (Технология Intel® Smart Sound для цифровых микрофонов) SWD\MMDEVAPI\{...
+OK     Bluetooth             Универсальная служба атрибутов Bluetooth с низким энергопотреблением     BTHLEDEVICE\{0...
+OK     Bluetooth             UGREEN KB 5.0                                                            BTHLE\DEV_FF3E...
+OK     Bluetooth             Служба сведений об устройствах                                           BTHLEDEVICE\{0...
+OK     AudioProcessingObject Realtek Audio Effects Component                                          SWD\DRIVERENUM...
+OK     Net                   WAN Miniport (IPv6)                                                      SWD\MSRRAS\MS_...
+OK     Net                   WAN Miniport (L2TP)                                                      SWD\MSRRAS\MS_...
+
+
+--- BATTERY ---
+Отчет о времени работы батареи сохранен в следующем расположении: C:\Users\Admin\Documents\Vault\arch-migration\battery-report.html.
+--- LARGE USER FOLDERS ---
+C:\Users\Admin : 275.3 GB
+C:\Users\Admin\Documents : 0.5 GB
+C:\Users\Admin\Desktop : 0 GB
+C:\Users\Admin\Downloads : 7.33 GB
+C:\Users\Admin\Pictures : 258.93 GB
+C:\Users\Admin\.ssh : 0 GB
+C:\Users\Admin\.gitconfig : 0 GB
+--- INSTALLED APPS (winget) ---
+
+   - 
+   \ 
+   | 
+   / 
+   - 
+                                                                                                                        
+
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  1024 KB / 2.95 MB
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  2.00 MB / 2.95 MB
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИ  2.95 MB / 2.95 MB
+                                                                                                                        
+
+  тЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  0%
+  тЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  0%
+  тЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  1%
+  тЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  2%
+  тЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  3%
+  тЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  4%
+  тЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  5%
+  тЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  6%
+  тЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  7%
+  тЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  8%
+  тЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  9%
+  тЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  10%
+  тЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  11%
+  тЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  12%
+  тЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  13%
+  тЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  14%
+  тЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  15%
+  тЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  16%
+  тЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  17%
+  тЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  18%
+  тЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  19%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  20%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  21%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  22%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  23%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  24%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  25%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  26%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  27%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  28%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  28%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  30%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  31%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  32%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  33%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  35%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  36%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  37%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  38%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  39%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  40%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  41%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  42%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  43%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  44%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  45%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  46%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  47%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  48%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  49%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  50%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  51%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  52%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  53%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  54%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  55%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  56%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  56%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  57%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  59%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  60%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  61%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  62%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  70%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТтЦТ  72%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТтЦТтЦТтЦТтЦТтЦТ  83%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТ  99%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦТ  99%
+  тЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИтЦИ  100%
+                                                                                                                        
+
+   - 
+   \ 
+   | 
+                                                                                                                        
+Installed package is not available from any source: Neural DSP Archetype Gojira
+Installed package is not available from any source: Focusrite Audio Drivers 4.143.0.261
+Installed package is not available from any source: IK Multimedia AmpliTube 5
+Installed package is not available from any source: Parsec Virtual USB Adapter Driver
+Installed package is not available from any source: Crusader Kings III
+Installed package is not available from any source: iCloud Outlook
+Installed package is not available from any source: Microsoft Visual Studio Installer
+Installed package is not available from any source: WezTerm version 20260331-040028-577474d8
+Installed package is not available from any source: Microsoft OLE DB Driver 19 for SQL Server
+Installed package is not available from any source: Microsoft Visual C++ 2005 Redistributable (x64)
+Installed package is not available from any source: Microsoft Edge
+Installed package is not available from any source: SQL Server Management Studio 22
+Installed package is not available from any source: vs_CoreEditorFonts
+Installed package is not available from any source: BitTorrent Web
+Installed package is not available from any source: ╨ж╨╡╨╜╤В╤А ╤Г╨┐╤А╨░╨▓╨╗╨╡╨╜╨╕╤П ╨│╤А╨░╤Д╨╕╨║╨╛╨╣ Intel┬о
+Installed package is not available from any source: iCloud
+Installed package is not available from any source: AV1 Video Extension
+Installed package is not available from any source: ╨а╨░╤Б╤И╨╕╤А╨╡╨╜╨╕╨╡ ╨║╨╛╨┤╨╕╤А╨╛╨▓╤Й╨╕╨║╨░ ╨▓╨╕╨┤╨╡╨╛ AVC
+Installed package is not available from any source: ╨а╨░╤Б╤И╨╕╤А╨╡╨╜╨╕╨╡ ╨┤╨╗╤П ╨╕╨╖╨╛╨▒╤А╨░╨╢╨╡╨╜╨╕╨╣ HEIF
+Installed package is not available from any source: ╨а╨░╤Б╤И╨╕╤А╨╡╨╜╨╕╤П ╨┤╨╗╤П ╨▓╨╕╨┤╨╡╨╛ HEVC ╨╛╤В ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨┤╨╕╤В╨╡╨╗╤П ╤Г╤Б╤В╤А╨╛╨╣╤Б╤В╨▓╨░
+Installed package is not available from any source: ╨а╨░╤Б╤И╨╕╤А╨╡╨╜╨╕╨╡ ╨┤╨╗╤П ╨▓╨╕╨┤╨╡╨╛ MPEG-2
+Installed package is not available from any source: Microsoft Edge
+Installed package is not available from any source: Microsoft .Net Native Framework Package 2.2
+Installed package is not available from any source: Microsoft .Net Native Framework Package 2.2
+Installed package is not available from any source: Paint
+Installed package is not available from any source: Raw Image Extension
+Installed package is not available from any source: Windows Security
+Installed package is not available from any source: ╨Я╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╨╡ Start Experiences
+Installed package is not available from any source: ╨г╨╖╨╡╨╗ ╨┤╨╗╤П ╨┐╨╛╨║╤Г╨┐╨╛╨║ ╨▓ Store
+Installed package is not available from any source: VP9 Video Extensions
+Installed package is not available from any source: Visual Studio Code
+Installed package is not available from any source: ╨а╨░╤Б╤И╨╕╤А╨╡╨╜╨╕╤П ╨┤╨╗╤П ╨╕╨╜╤В╨╡╤А╨╜╨╡╤В-╨╝╤Г╨╗╤М╤В╨╕╨╝╨╡╨┤╨╕╨░
+Installed package is not available from any source: ╨а╨░╤Б╤И╨╕╤А╨╡╨╜╨╕╨╡ ╨┤╨╗╤П ╨╕╨╖╨╛╨▒╤А╨░╨╢╨╡╨╜╨╕╨╣ WebP
+Installed package is not available from any source: Widgets Platform Runtime
+Installed package is not available from any source: Windows Advanced Settings
+Installed package is not available from any source: ╨д╨╛╤В╨╛╨│╤А╨░╤Д╨╕╨╕ (╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В)
+Installed package is not available from any source: ╨з╨░╤Б╤Л Windows
+Installed package is not available from any source: ╨Ъ╨░╨╗╤М╨║╤Г╨╗╤П╤В╨╛╤А Windows
+Installed package is not available from any source: ╨С╨╗╨╛╨║╨╜╨╛╤В Windows
+Installed package is not available from any source: Microsoft Store
+Installed package is not available from any source: Windows Package Manager Source (winget) V2
+Installed package is not available from any source: ╨Ь╨╡╨┤╨╕╨░╨┐╨╗╨╡╨╡╤А Windows
+Installed package is not available from any source: WinAppRuntime.Singleton
+Installed package is not available from any source: Windows Web Experience Pack
+Installed package is not available from any source: ╨г╨╖╨╡╨╗ ╨▓╨╖╨░╨╕╨╝╨╛╨┤╨╡╨╣╤Б╤В╨▓╨╕╤П ╨╝╨╡╨╢╨┤╤Г ╤Г╤Б╤В╤А╨╛╨╣╤Б╤В╨▓╨░╨╝╨╕
+Installed package is not available from any source: Mozilla Firefox
+Installed package is not available from any source: Notepad++
+Installed package is not available from any source: ChatGPT
+Installed package is not available from any source: WinRAR
