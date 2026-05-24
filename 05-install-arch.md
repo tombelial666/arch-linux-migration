@@ -12,11 +12,13 @@
 ## Подтверждение перед DESTRUCTIVE
 
 ```
-[ ] Бэкап проверен на основном ПК
-[ ] wipe только nvme0n1 (KIOXIA 256GB), НЕ USB Leef
-[ ] Wi-Fi работает в Live USB
-[ ] Secure Boot выключен
+[x] Бэкап проверен на основном ПК
+[x] wipe только nvme0n1 (KIOXIA 256GB), НЕ USB Leef
+[x] Wi-Fi работает в Live USB
+[x] Secure Boot выключен
 ```
+
+> **Установка выполнена.** Hostname `arch-laptop`, user `tom`. Итог: [MIGRATION-DONE.md](MIGRATION-DONE.md).
 
 ---
 

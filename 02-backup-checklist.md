@@ -1,5 +1,7 @@
 # Этап 3 — бэкап
 
+> **Статус:** MUST HAVE и DESTRUCTIVE выполнены (2026-05).
+
 Флешка 32 ГБ — только Arch ISO. Отдельный USB под бэкап нет.
 
 ---
@@ -36,14 +38,14 @@ git status -sb
 
 ## Опционально
 
-- [ ] [arch-preinstall-report.txt](arch-preinstall-report.txt) — справка по железу
-- [ ] Downloads (~7 ГБ)
+- [x] [arch-preinstall-report.txt](arch-preinstall-report.txt) — справка по железу (Windows, не в git)
+- [ ] Downloads (~7 ГБ) — **пропущено** (не критично)
 
 ---
 
 ## DESTRUCTIVE — после подтверждения
 
-- [ ] ISO на флешку Leef
-- [ ] Wipe Disk 0 NVMe
+- [x] ISO на флешку Leef
+- [x] Wipe Disk 0 NVMe → Arch на `nvme0n1`
 
-**`Бэкап проверен, destructive actions confirmed`** → [05-install-arch.md](05-install-arch.md)
+**`Бэкап проверен, destructive actions confirmed`** → [05-install-arch.md](05-install-arch.md) — **выполнено**.

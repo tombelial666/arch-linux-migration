@@ -2,12 +2,15 @@
 
 Отдельный репозиторий: план, чеклисты, скрипты, контекст чата.
 
+**Миграция завершена (2026-05-24):** см. [MIGRATION-DONE.md](MIGRATION-DONE.md) — `arch-laptop`, user `tom`.
+
 **В Live:** открой [LIVE-CHEATSHEET.md](LIVE-CHEATSHEET.md) или клонируй репо с main PC.
 
 ## Быстрый старт
 
 | Файл | Назначение |
 |------|------------|
+| [MIGRATION-DONE.md](MIGRATION-DONE.md) | Итог миграции и проверки §10 |
 | [CHAT-CONTEXT.md](CHAT-CONTEXT.md) | Решения и статус из чата |
 | [LIVE-CHEATSHEET.md](LIVE-CHEATSHEET.md) | Команды в Live USB |
 | [04-preinstall-checklist.md](04-preinstall-checklist.md) | До установки |

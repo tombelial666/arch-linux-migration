@@ -15,14 +15,20 @@
 | Не трогать | USB Leef ~32 GB (установщик) |
 | Бэкап | Конфиги на main PC; Vault в GitHub `tombelial666/obsidian` |
 | ISO | `archlinux-2026.05.01-x86_64.iso`, SHA256 `4af795aab6530e8344553961d0a0e8e84f9622a131ee7d44b0b86b035b2d9ff7` |
+| Hostname | `arch-laptop` |
+| Username | `tom` |
 
-## Статус на 2026-05-21
+## Статус — **ЗАВЕРШЕНО** (2026-05-24)
 
 - [x] Бэкап Cursor/VS Code на main PC
 - [x] ISO скачан, checksum OK
-- [ ] Флешка записана, загрузка с USB
-- [ ] Live: Wi‑Fi, `lsblk`
-- [ ] Фраза: `Бэкап проверен, destructive actions confirmed`
+- [x] Флешка записана, загрузка с USB
+- [x] Live: Wi‑Fi, `lsblk`
+- [x] Фраза: `Бэкап проверен, destructive actions confirmed`
+- [x] Установка Arch, первая загрузка
+- [x] Post-install (pacman, Docker, Tailscale, UFW, §10 кроме HDMI)
+
+Подробности проверки: [MIGRATION-DONE.md](MIGRATION-DONE.md).
 
 ## В Live без Cursor
 

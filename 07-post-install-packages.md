@@ -1,6 +1,8 @@
 # После установки — пакеты и софт
 
-Пользователь: `YOURUSER`. Сеть: NetworkManager + Tailscale.
+> **Статус:** база установлена на `arch-laptop` / `tom` (2026-05-24). Итог: [MIGRATION-DONE.md](MIGRATION-DONE.md).
+
+Пользователь: `tom`. Сеть: NetworkManager + Tailscale.
 
 ## 1. База (pacman)
 
@@ -12,7 +14,7 @@ sudo pacman -S plasma kde-applications konsole dolphin \
   tlp ufw reflector
 
 sudo systemctl enable --now tlp docker tailscaled
-sudo usermod -aG docker YOURUSER
+sudo usermod -aG docker tom
 ```
 
 ## 2. yay (AUR) — осознанный риск
@@ -25,13 +27,13 @@ cd yay && makepkg -si
 
 AUR только для пакетов ниже, если нет в extra.
 
-| Пакет | AUR / заметка |
-|-------|----------------|
-| google-chrome | `google-chrome` AUR или Chromium из extra |
-| visual-studio-code-bin | или `cursor-bin` AUR |
-| obsidian | AUR |
-| telegram-desktop | extra: `telegram-desktop` |
-| slack-desktop | AUR |
+| Пакет | AUR / заметка | Факт на arch-laptop |
+|-------|----------------|---------------------|
+| google-chrome | AUR или Chromium | **firefox** (extra) |
+| visual-studio-code-bin | или `cursor-bin` AUR | **Cursor AppImage** |
+| obsidian | AUR | папка `~/Obsidian` (при необходимости AUR позже) |
+| telegram-desktop | extra | **установлен** |
+| slack-desktop | AUR | не ставили |
 
 ## 3. Wi‑Fi / BT (HP 15s, RTL8821CE)
 
@@ -73,6 +75,8 @@ sudo systemctl mask systemd-hibernate.service systemd-hybrid-sleep.service
 
 Или отладка: https://wiki.archlinux.org/title/Power_management#Hibernation
 
+На `arch-laptop`: swap 10G, `resume` в mkinitcpio — **hibernate не тестировали**, suspend enabled.
+
 ## 8. Firewall
 
 ```bash
@@ -81,6 +85,8 @@ sudo ufw default allow outgoing
 sudo ufw allow in on tailscale0
 sudo ufw enable
 ```
+
+Скрипт: [scripts/fix-ufw-enable.sh](scripts/fix-ufw-enable.sh).
 
 ## 9. reflector (зеркала)
 
@@ -91,12 +97,12 @@ sudo reflector --country Russia,Thailand,Germany --age 12 --download-timeout 5 -
 
 Подстрой страны под пинг.
 
-## 10. Проверочный чеклист
+## 10. Проверочный чеклист (2026-05-24)
 
-- [ ] Wi‑Fi, Bluetooth
-- [ ] Звук (PipeWire)
-- [ ] Камера (`pw-top` / KDE Settings)
-- [ ] Внешний монитор (HDMI)
-- [ ] Tailscale ping main PC
-- [ ] Docker `docker run hello-world`
-- [ ] Suspend / (опционально) hibernate
+- [x] Wi‑Fi, Bluetooth
+- [x] Звук (PipeWire)
+- [x] Камера (`/dev/video0`, HP TrueVision HD)
+- [ ] Внешний монитор (HDMI) — **проверить при подключении кабеля**
+- [x] Tailscale up (`arch-laptop`); ping main PC — когда main в mesh
+- [x] Docker `docker run hello-world`
+- [x] Suspend (enabled); hibernate — опционально, не тестировали
